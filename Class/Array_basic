@@ -1,0 +1,26 @@
+//Array 
+let myArr = [1,2,3,4,5];
+console.log(`My Array is ${myArr}`)
+console.log(typeof myArr)
+
+const arr = new Array(0,10,2,3,4,5,6);
+console.log(`The const array[0] is : ${arr[0]}`)
+console.log(`The const array[1] is : ${arr[1]}`)
+
+//Array Methods 
+arr.push(7); // Add values in the Array 
+console.log(`The const array is : ${arr}`) 
+
+arr.pop()//Removes the Last value from Array 
+console.log(`The const array is : ${arr}`) 
+
+arr.unshift(9);//it shift all element and added at 1st postion
+console.log(`The const array is : ${arr}`)
+
+console.log(arr.shift())
+console.log('The const  array is : ${arr}')
+console.log('The index of 4500 is :${arr.indexof(4500)}')
+console.log('The Array consist 2 or not ? :${arr.include(2)}')
+
+
+//activity 03 :"slice and split in array"

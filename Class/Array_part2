@@ -1,0 +1,46 @@
+const superHero=["superman","batman","thor"];
+const a = ["narendr modi","Yogi","Eknath"];
+
+superHero.push(a);
+console.log('The superhero Array : ${superhero}')
+
+console.log(superHero[3])
+console.log(superHero[3][2])
+console.log(superHero[3][1])
+console.log(superHero[3][0])
+
+//Array concat
+const b = superhero.concat(EnglishSuperHero)
+console.log('The concat array : ${b}')
+console.log(b[3])
+
+const arr=[1,2,3,4,5,6,7,8];
+console.log(arr)
+
+const anotherArray1=a.flat(Infinity)
+console.log(anotherArray1)
+ 
+
+const anotherArray2=anotherArray1.flat(Infinity);
+console.log(Infinity)
+
+//How the nested array should be flaten , default value is 1
+//Infinity : Flatens all levels, no matter how deep
+// flat dosent change original array it return new array,useful when working with 
+// Data scripting
+
+
+console.log(Array.isArray("Sudarshan"))
+y(marathiSuperHero)
+
+
+
+
+
+
+
+
+let score1=100;
+let score2=200;
+let score3=300;
+console.log(Array.of(score1,score2,score3))
